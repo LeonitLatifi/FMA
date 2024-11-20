@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+header {
+    width: 1080px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+nav ul {
+    gap: 10px;
+    display: flex;
+    list-style-type: none;
+}
+
+.btn {
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color: blue ;
+    color: white;
+    font-size: 12pt;
+    
+    
+    
+}
