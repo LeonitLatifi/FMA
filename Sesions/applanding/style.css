@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 1080px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 12pt;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 12pt;
+    border: none;
+}
+.btn-link {
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 40px;
+    background: transparent;
+    color: blue;
+    font-size: 12pt;
+    border: none;
+}
+
+.hero-fluid {
+    height: 800px;
+    background: url(images/hero-bldg.png) repeat-x;
+    background-position: bottom;
+}
+
+.hero-fix {
+    width: 1080px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.hero-fix .left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+
+.hero-fix .left h1 {
+    font-size: 50pt;
+}
+
+.hero-fix .left p {
+    font-size: 16pt;
+    color: gray;
+}
+
+.highlight {
+    display: flex;
+    gap: 10px;
+    background-color: #e2eaed;
+    border-radius: 40px;
+    width: fit-content;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.highlight img { width: 40px; }
+
+.highlight div:first-child {
+    background-color: #feaa25;
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.clients {
+    width: 1080px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.clients ul {
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.clients h3 { text-align: center; }
+
+.exercise {
+    width: 400px;
+    padding: 500px;
+    border-radius: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.exercise h1 {
+    color: rgba(17, 0, 255, 0.329);
+}
+
+
+.buttons {
+
+    
+    padding: 20px 40px;
+    border-radius: 40px;
+    
+    color: white;
+    font-size: 12pt;
+    border: none;
+    
+}
+.buttons-annually {
+   
+    padding: 20px 40px;
+    border-radius: 40px;
+    background: transparent;
+    color: blue;
+    font-size: 12pt;
+    border: none;
+}
