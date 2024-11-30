@@ -15,7 +15,7 @@ header {
     align-items: center;
 }
 
-nav{
+nav {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -37,6 +37,7 @@ nav ul {
     font-size: 12pt;
     border: none;
 }
+
 .btn-link {
     cursor: pointer;
     padding: 20px 40px;
@@ -85,7 +86,9 @@ nav ul {
     align-items: center;
 }
 
-.highlight img { width: 40px; }
+.highlight img {
+    width: 40px;
+}
 
 .highlight div:first-child {
     background-color: #feaa25;
@@ -102,6 +105,7 @@ nav ul {
     flex-direction: column;
     gap: 30px;
 }
+
 .clients ul {
     display: flex;
     list-style-type: none;
@@ -109,42 +113,52 @@ nav ul {
     justify-content: center;
     align-items: center;
 }
-.clients h3 { text-align: center; }
 
-.exercise {
-    width: 400px;
-    padding: 500px;
-    border-radius: 40px;
-    align-items: center;
+.clients h3 {
+    text-align: center;
+}
+
+body {
     display: flex;
     flex-direction: column;
-    
-    
-
+    gap: 1rem;
+    font-family: "Outfit", serif;
 }
 
-.exercise h1 {
-    color: rgba(17, 0, 255, 0.329);
+.exercise {
+    padding-block: 20px;
+}
+
+.container1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
-.buttons {
-
-    
-    padding: 20px 40px;
-    border-radius: 40px;
-    
-    color: white;
-    font-size: 12pt;
-    border: none;
+.cards {
+    display: flex;
+    flex-direction: row;
     
 }
-.buttons-annually {
-   
-    padding: 20px 40px;
-    border-radius: 40px;
-    background: transparent;
-    color: blue;
-    font-size: 12pt;
-    border: none;
+
+.header {
+    color: #2e365b;
+}
+
+.textgray {
+
+    color: gray;
+}
+
+.amount1 {
+    align-items: center;
+    text-align: center;
+}
+
+
+.card1 {
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
